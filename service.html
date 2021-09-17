@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FontAwesome Site Icons for SocMed Icons-->
+    <script src="https://kit.fontawesome.com/7c04fe9cbf.js" crossorigin="anonymous"></script>
+
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+      .parallax-container {
+         height: 300px;
+      }
+      .card-image img{
+        height: 350px!important;
+        width: 100%!important;
+      }
+      .description{
+        color: black;
+        font-family: 'Red Hat Display', sans-serif;
+        line-height: 25px;
+      }
+      nav{
+        color: black;
+      }
+    </style>
+
+    <link rel="icon" sizes="16x16" href="logoblack.svg" class="black" />
+    <title>Elynps Company</title>
+</head>
+<body>
+
+    <!--Navbar-->
+      <nav>
+        <div class="nav-wrapper black">
+          <object data="logo.svg" width="30px" height="60px"></object>
+          <a href="#" class="brand-logo left">Elynps</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger right "><i class="fas fa-bars"></i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="service.html" class="active"> Service </a></li>
+            <li><a href="aboutus.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--SideNav-->
+      <ul class="sidenav black" id="mobile-demo">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="service.html" class="active">Service</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>
+
+      <!--Paralax-->
+      <div class="parallax-container">
+        <div class="parallax reducebrightness"><img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"></div>
+      </div>
+      <div class="section white">
+      <!--Horizontal Card-->
+        <h3 class="black-text center-align pagetitle mt10 font40">Service we Offer</h3>
+        <div class="row container">
+          <div class="col s12 m4 l4">
+            <div class="card grey lighten-1">
+              <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1533750516457-a7f992034fec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80">
+              </div>
+              <div class="card-content">
+                <h4 class="black-text font24">Digital Marketing</h4>
+                <p class="description black-text font18">Our Company do  advertising delivered through digital 
+                  channels such as search engines, websites, social media, email, and mobile apps.</p>
+              </div>
+              <div class="card-action black center-align font18 orange-text">
+                <!-- Modal Trigger -->
+                <a class="modal-trigger white-text" href="#modal1">MAKE AN APPOINTMENT NOW!!!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card grey lighten-1">
+              <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80">
+              </div>
+              <div class="card-content">
+                <h4 class="black-text font24">Virtual Assistant</h4>
+                <p class="description black-text font18">Our Company provides 
+                  administrative services to our clients while operating outside of the client's office. We ensure the quality of the service</p>
+              </div>
+              <div class="card-action black center-align font18 orange-text">
+                <!-- Modal Trigger -->
+                <a class="modal-trigger white-text" href="#modal1">MAKE AN APPOINTMENT NOW!!!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4 l4">
+            <div class="card grey lighten-1">
+              <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80">
+              </div>
+              <div class="card-content">
+                <h4 class="black-text font24">Data Analyst</h4>
+                <p class="description black-text font18">Our Company  serves as a gatekeeper for an organization's 
+                  data so stakeholders can understand data and use it to make strategic business.</p>
+              </div>
+              <div class="card-action black center-align font18 orange-text">
+                <!-- Modal Trigger -->
+                <a class="modal-trigger white-text" href="#modal1">MAKE AN APPOINTMENT NOW!!!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+          <i class="modal-close material-icons right small">close</i>
+          <br>
+            <h2 class="font40 black-text center-align">Appointment Form</h2>
+              <form class="col s12">
+                <div class="row">
+                  <div class="col s12">
+                      <div class="input-field col s12">
+                        <input type="text" id="name" class="validate">
+                        <label for="name" class="staticfont24">Name</label>
+                      </div>
+                  </div>
+                  <div class="col s12">
+                      <div class="input-field col s12">
+                        <input type="tel" id="contact" class="validate">
+                        <label for="contact" class="staticfont24">Contact no.</label>
+                      </div>
+                  </div>
+                  <div class="col s12">
+                      <div class="input-field col s12">
+                        <input type="text" id="schedule" class="datepicker">
+                        <label for="schedule" class="staticfont24">Date Schedule</label>
+                      </div>
+                  </div>
+                </div>
+              </form>
+            <div class="container center">
+              <a href="service.html" class=" waves-effect waves-green btn-large black">Submit</a>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="black page-footer">
+      <div class="container">
+          <div class="row">
+            <div class="col l9 s12">
+              <h3 class="white-text left">Elynps Company</h3>
+              </div>
+            <div class="col l3 s12">
+              <h5 class="white-text center-align">Follow us:</h5>
+              <div class="center-align">
+                <a href="facebook.com"><i class="fab fa-facebook blue-text text-darken-2"></i></a>
+                <a href=""><i class="fab fa-instagram pink-text"></i></a>
+                <a href=""><i class="fab fa-pinterest red-text"></i></a>
+                <a href=""><i class="fab fa-linkedin blue-text"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="footer-copyright">
+          <div class="container font18 left">
+          © 2021, Elymps Company. All right Reserved
+          </div>
+        </div>
+      </footer>
+
+    <!---JQueryCDN--->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript --->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    <!--JQuery Selector-->
+    <script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+        $('.parallax').parallax();
+        $('.modal').modal();
+        $('.datepicker').datepicker();
+        $('input.autocomplete').autocomplete({
+         data: {
+          function (a, b, inputString) {
+          return a.indexOf(inputString) - b.indexOf(inputString);
+        }
+      },
+    });
+    });
+   
+        
+    </script>
+</body>
+</html>

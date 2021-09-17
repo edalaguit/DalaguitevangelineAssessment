@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap');
+
+body{
+    font-family: 'Red Hat Display'!important, sans-serif;
+    font-weight: 500!important;
+}
+/*Parallax*/
+
+/*Logo*/
+object{
+    margin-left: 10px;
+}
+.brand-logo{
+    font-weight: 700!important;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-left: 47px;
+}
+/*Navbar styling*/
+#nav-mobile a{
+    margin: 0 10px;
+    
+    font-size: 24px!important;
+    font-weight: bold!important;
+    font-family: 'Red Hat Display', sans-serif!important;
+}
+#nav-mobile a:hover{
+    background-color: #00695c!important;
+}
+
+/*sidenav styling*/
+.sidenav{
+    padding-top: 90px!important;
+    width: 350px;
+}
+.sidenav a{
+    margin: 20px 0;
+    padding: 10px!important;
+    color: white!important;
+    font-size: 36px!important;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center!important;
+    font-weight: 700!important;
+    height: 70px!important;
+}
+.sidenav a:hover{
+    background-color: #00695c!important;
+}
+a.active {
+    background-color: #00695c!important;
+}
+
+ /*Pallax bg rightness decrease*/
+.reducebrightness{
+    filter: brightness(40%);
+ }
+
+ /*collapsible Style*/
+ .collapsible-header{
+    width: 425px!important;
+    height: 50px;
+  }
+
+/*Font size*/
+
+.font12{
+    font-size: 12px!important;
+    font-weight: bold!important;
+    font-family: 'Red Hat Display', sans-serif!important;
+}
+.font14{
+    font-size: 14px!important;
+    font-weight: bold!important;
+    font-family: 'Red Hat Display', sans-serif!important;
+}
+.font18{
+    font-size: 18px!important;
+    font-family: 'Red Hat Display', sans-serif!important;
+}
+.font24{
+    font-size: 24px!important;
+    font-weight: bold!important;
+    font-family: 'Red Hat Display', sans-serif!important;
+}
+.staticfont24{
+    font-size: 24px!important;
+    font-weight: bold!important;
+    font-family: 'Red Hat Display', sans-serif!important;
+}
+.subfont24{
+    font-size: 24px!important;
+    font-weight: 500!important;
+    font-family: 'Red Hat Display', sans-serif!important;
+}
+.font36{
+    font-size: 36px!important;
+    font-weight: bold!important;
+    font-family: 'Red Hat Display', sans-serif!important;
+}
+.font40{
+    font-size: 40px!important;
+    font-weight: bold!important;
+    font-family: 'Red Hat Display', sans-serif!important;
+}
+.font48{
+    font-size: 48px!important;
+    font-weight: bold!important;
+    font-family: 'Red Hat Display', sans-serif!important;
+}
+.fab{
+    font-size: 36px;
+    margin: 2px;
+}
+
+/*Margin*/
+.mt{
+    margin-top: 40%;
+}
+.mt10{
+    margin-top: 40px;
+}
+
+.m{
+    margin: 0 50px!important;
+}
+.ml30{
+    margin-left: 30px!important;
+}
+.ml5{
+    padding-left: 8px!important;
+}
+.mt5{
+    margin-top: 40px;
+}
+/*Input style*/
+
+input[type=text]:not(.browser-default), input[type=tel]:not(.browser-default),  input[type=email]:not(.browser-default){
+    border-bottom: 3px solid black!important;
+    
+}
+/* Use a media query to add a breakpoint to page size */
+@media screen and (min-width: 700px)  {
+    .mt{
+        margin-top: 20%;
+        text-align:center!important;
+    }
+    .font48{
+        font-size: 66px!important;
+        text-align:center!important;
+    }
+    .brand-logo{
+        margin-left: 10px!important;
+    }
+    .container{
+        width: 90%!important;
+    }
+    .modal{
+        width: 80%!important;
+        padding: 10px;
+    }
+    .font14{
+        font-size: 24px!important;
+    }
+    .collapsible-header{
+        width: 500px!important;
+      }
+}
+
+@media screen and  (min-width: 500px) {
+    .brand-logo{
+        margin-left: 50px!important;
+    }
+    .container{
+        width: 90%!important;
+    }
+    .collapsible-header{
+        width: 425px!important;
+      }
+   
+}
+@media screen and  (min-width: 1000px) {
+    .brand-logo{
+        margin-left: 30px!important;
+    }
+    .modal{
+        width: 35%!important;
+        padding: 10px;
+    }
+    .font14{
+        font-size: 24px!important;
+    }
+    .collapsible-header{
+        width: 600px!important;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .mt{
+        margin-top: 10%;
+    }
+    .font48{
+        font-size: 96px!important;
+        text-align:center!important;
+    }
+    .font36{
+        font-size: 72px!important;
+        font-weight: 500!important;
+        text-align:center!important;
+    }
+    .font24{
+        font-size: 30px!important;
+        text-align:center!important;
+    }
+    .brand-logo{
+        margin-left: 15px!important;
+    }
+    .container{
+        width: 90%!important;
+    }
+    .modal{
+        width: 35%!important;
+        padding: 10px;
+    }
+    .collapsible-header{
+        width: 700px!important;
+    }
+}
